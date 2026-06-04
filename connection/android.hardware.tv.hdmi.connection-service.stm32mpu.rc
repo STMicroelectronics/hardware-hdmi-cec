@@ -1,0 +1,5 @@
+service vendor.hdmi-stm32mpu /vendor/bin/hw/android.hardware.tv.hdmi.connection-service.stm32mpu
+    interface aidl android.hardware.tv.hdmi.connection.IHdmiConnection/default
+    class hal
+    user system
+    group system
